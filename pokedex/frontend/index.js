@@ -41,7 +41,7 @@ function PokemonList() {
     pokemonData.map((pokemon) =>
       React.createElement(PokemonCard, {
         key: pokemon.name, // Menggunakan nama sebagai key
-        name: pokemon.name // Hanya menampilkan nama
+        name: pokemon.name //  Menampilkan nama saja
       })
     )
   );
